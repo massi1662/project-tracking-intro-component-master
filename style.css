@@ -34,7 +34,7 @@ padding: 3rem 6rem;
 .link-container li{
     font-size: 1.25rem;
     font-weight:500;
-
+    
 }
 
 
@@ -109,7 +109,7 @@ width: 22rem;
 
 .img-container{
     flex:1;
-    
+    width: 50%;
 }
 
 #bg{
