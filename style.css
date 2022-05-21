@@ -1,5 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,500;1,600;1,700;1,800;1,900&family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&family=Enriqueta:wght@400;500;600;700&family=Inter:wght@200;300;400;500;600;700;800;900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *{
     padding:0;
     margin: 0;
     box-sizing: border-box;
+}
+
+body{
+    font-family: 'Barlow', sans-serif;
+font-family: 'DM Sans', sans-serif;
+font-family: 'Enriqueta', serif;
+font-family: 'Inter', sans-serif;
+font-family: 'Roboto', sans-serif;
+}
+
+nav{
+display: flex;
+justify-content: space-between;
+padding: 3rem 6rem;
+}
+
+#logo-container{
+    margin-left: 6.5rem;
+}
+
+.link-container{
+    display: flex;
+    list-style: none;
+    gap: 1.5rem;
+    
+    
+}
+
+.link-container li{
+    font-size: 1.25rem;
+    font-weight:500;
+
+}
+
+
+.login{
+color: #c4c4c4;
+}
+
+.contenu{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5rem;
+    align-items: center;
+    gap:18rem;
+    overflow:hidden;
+}
+
+.text-container{
+    margin-left: 12rem;
+    flex: 1;
+    margin-bottom: 5rem;
+}
+
+.titles{
+display: flex;
+flex-direction:column;
+gap: 1.2rem;
+
+}
+
+.titles span{
+    padding-right: 0.75rem;
+}
+
+.titles p{
+font-size: 1.25rem;
+width: 22rem;
+}
+
+.titles h1{
+    width:35rem;
+    font-size:3rem;
+}
+
+#espace {
+    color: #c4c4c4;
+    letter-spacing: 3px;
+}
+
+#new{
+    background-color: black;
+    color:white;
+    padding:0.25rem 0.45rem;
+    border-radius: 1rem;
+    margin-right: 0.5rem;
+}
+
+.demo{
+    display: flex;
+    gap: 1.25rem;
+    margin-top:4rem;
+    align-items:center;
+}
+
+.demo button{
+    padding: 1rem 1.5rem;
+    background-color: orangered;
+    border-radius: 0.2rem;
+    color: white;
+    border:0;
+
+}
+
+.img-container{
+    flex:1;
+    
+}
+
+#bg{
+    background-color: hsl(207, 33%, 95%);
+    position: absolute;
+    top:0;
+    right:0;
+    width:50%;
+    height: 55%;
+    border-bottom-left-radius: 3rem;
+    z-index:-1;
 }
